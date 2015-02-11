@@ -18,5 +18,6 @@ public class UserBean implements Serializable{
 	public void setName(String name) {
 		this.name = name;
 	}
-sdfsdf
+	
+	public void namba(){}
 }
