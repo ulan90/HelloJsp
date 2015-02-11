@@ -1,10 +1,11 @@
 package com.ulan;
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 
-@ManagedBean
-@SessionScoped
+@ManagedBean(name="bean1")
+@RequestScoped
 public class UserBean {
 	
 	private String name;
